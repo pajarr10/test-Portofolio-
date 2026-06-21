@@ -248,4 +248,19 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 3000);
   });
 
+  /* ============ 12. VISITOR TRACKING ============ */
+  fetch('/api/visit', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({
+      page: location.pathname,
+      referrer: document.referrer,
+      screen: `${screen.width}x${screen.height}`,
+      language: navigator.language,
+      timezone: Intl.DateTimeFormat().resolvedOptions().timeZone
+    })
+  }).catch(() => {});
+
 });
