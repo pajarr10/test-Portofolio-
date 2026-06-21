@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Fajar — Photography Portfolio</title>
+  <meta name="description" content="Portfolio fotografi Fajar — pelajar SMP yang hobi fotografi. Canon SX410 IS & Redmi 13." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231e1e2f' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='1' y='1' width='22' height='22' rx='5' fill='%23ffe600'/%3E%3Cpath d='M19 17a1.5 1.5 0 0 1-1.5 1.5h-11A1.5 1.5 0 0 1 5 17V9.5A1.5 1.5 0 0 1 6.5 8h2.6l1.4-2h3l1.4 2h2.6A1.5 1.5 0 0 1 19 9.5z'/%3E%3Ccircle cx='12' cy='13' r='3'/%3E%3C/svg%3E" />
+</head>
+<body>
+
+  <!-- ============ SVG ICON SPRITE ============ -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-camera" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></symbol>
+    <symbol id="i-aperture" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="14.31" y1="8" x2="20.05" y2="17.94"/><line x1="9.69" y1="8" x2="21.17" y2="8"/><line x1="7.38" y1="12" x2="13.12" y2="2.06"/><line x1="9.69" y1="16" x2="3.95" y2="6.06"/><line x1="14.31" y1="16" x2="2.83" y2="16"/><line x1="16.62" y1="12" x2="10.88" y2="21.94"/></symbol>
+    <symbol id="i-terminal" viewBox="0 0 24 24"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></symbol>
+    <symbol id="i-grad" viewBox="0 0 24 24"><path d="M22 9 12 4 2 9l10 5 10-5z"/><path d="M6 11.5V16c0 1.66 2.69 3 6 3s6-1.34 6-3v-4.5"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2.5"/><line x1="10.5" y1="18" x2="13.5" y2="18"/></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></symbol>
+    <symbol id="i-folder" viewBox="0 0 24 24"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10z"/><path d="M2 21c0-3 1.85-5.36 5.08-6"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5.76.76 1.23 1.52 1.41 2.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
+    <symbol id="i-zap" viewBox="0 0 24 24"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></symbol>
+    <symbol id="i-tool" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></symbol>
+    <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></symbol>
+    <symbol id="i-rocket" viewBox="0 0 24 24"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/></symbol>
+    <symbol id="i-flame" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></symbol>
+  </svg>
+
+  <!-- ============ LOADER ============ -->
+  <div class="loader" id="loader">
+    <div class="loader-box">
+      <span class="loader-icon"><svg class="icon"><use href="#i-camera"/></svg></span>
+      <p class="loader-text">Loading<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
+      <div class="loader-bar"><div class="loader-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="brand">
+        <span class="brand-logo"><svg class="icon"><use href="#i-camera"/></svg></span>
+        <span class="brand-name">Fajar</span>
+      </a>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="nav-btn active" data-nav>Home</a>
+        <a href="#about" class="nav-btn" data-nav>About</a>
+        <a href="#gallery" class="nav-btn" data-nav>Gallery</a>
+        <a href="#projects" class="nav-btn" data-nav>Projects</a>
+        <a href="#skills" class="nav-btn" data-nav>Skills</a>
+        <a href="#contact" class="nav-btn" data-nav>Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>PHOTOGRAPHER ★ STUDENT ★ DREAMER ★ CREATOR ★ VIBECODER ★ EXPLORER ★ PHOTOGRAPHER ★ STUDENT ★ DREAMER ★ CREATOR ★ VIBECODER ★ EXPLORER ★ </span>
+      <span>PHOTOGRAPHER ★ STUDENT ★ DREAMER ★ CREATOR ★ VIBECODER ★ EXPLORER ★ PHOTOGRAPHER ★ STUDENT ★ DREAMER ★ CREATOR ★ VIBECODER ★ EXPLORER ★ </span>
+    </div>
+  </div>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero section" id="home">
+      <!-- floating doodles -->
+      <span class="doodle doodle-circle float-1" aria-hidden="true"></span>
+      <span class="doodle doodle-square float-2" aria-hidden="true"></span>
+      <span class="doodle doodle-diamond float-3" aria-hidden="true"></span>
+      <span class="doodle doodle-star float-4" aria-hidden="true"></span>
+      <span class="doodle doodle-star doodle-star-2 float-2" aria-hidden="true"></span>
+      <span class="doodle doodle-circle doodle-circle-2 float-3" aria-hidden="true"></span>
+
+      <div class="container hero-grid">
+        <div class="hero-left reveal">
+          <div class="badge badge-green"><svg class="icon"><use href="#i-camera"/></svg> Anak Esempe</div>
+
+          <h1 class="hero-title">Halo, Aku <span class="hl-underline">Muhammad Fajar</span><span class="dot-pink">.</span></h1>
+
+          <p class="hero-desc">
+            Seorang pelajar SMP yang memiliki hobi <mark class="hl-cyan">photography</mark>.
+            Aku senang mengabadikan berbagai momen, pemandangan, dan objek menarik
+            pake kamera. <mark class="hl-pink">Student</mark> by day,
+            <mark class="hl-yellow">vibecoding</mark> by night!
+          </p>
+
+          <div class="hero-cta">
+            <a href="#gallery" class="btn btn-pink"><svg class="icon"><use href="#i-image"/></svg> Lihat Galeri</a>
+            <a href="#contact" class="btn btn-white"><svg class="icon"><use href="#i-code"/></svg> Hubungi Aku</a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-num" data-counter="4" data-suffix="+">0+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-counter="6" data-suffix="+">0+</span>
+              <span class="stat-label">Skills</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num" data-counter="60" data-suffix="%">0%</span>
+              <span class="stat-label">Semangat</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-right reveal">
+          <div class="mockup-card">
+            <span class="sticker sticker-cyan tilt-l"><svg class="icon"><use href="#i-camera"/></svg> Canon SX410 IS</span>
+            <span class="sticker sticker-purple tilt-r sticker-mid"><svg class="icon"><use href="#i-phone"/></svg> Redmi 13</span>
+
+            <div class="mockup-screen">
+              <div class="mockup-dots"><i class="dot-r"></i><i class="dot-y"></i><i class="dot-g"></i></div>
+              <p class="term-line"><span class="t-green">$ whoami</span></p>
+              <p class="term-line"><span class="t-arrow">&rarr;</span> <span class="t-yellow">Fajar</span></p>
+              <p class="term-line"><span class="t-green">$ cat hobby.txt</span></p>
+              <p class="term-line"><span class="t-arrow">&rarr;</span> <span class="t-pink">Photography Portfolio</span></p>
+              <p class="term-line"><span class="t-green">$ echo $MOOD</span></p>
+              <p class="term-line"><span class="t-arrow">&rarr;</span> <span class="t-cyan">Excited to capture!</span></p>
+            </div>
+
+            <div class="mockup-profile">
+              <img src="https://c.termai.cc/i120/A9Bwrao.jpg" alt="Foto profil Fajar" class="mockup-avatar" />
+              <div>
+                <strong class="mockup-name">Fajar</strong>
+                <span class="mockup-handle">➜ my childhood btw</span>
+              </div>
+            </div>
+
+            <span class="sticker sticker-orange tilt-l sticker-bottom"><svg class="icon"><use href="#i-zap"/></svg> Snap!</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-cream" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label label-cyan">01 // ABOUT ME</span>
+          <h2 class="section-title">Siapa sih <span class="title-pink">Fajar</span> ? <span class="title-icon"><svg class="icon"><use href="#i-help"/></svg></span></h2>
+        </div>
+
+        <div class="about-card reveal">
+          <div class="about-icon"><svg class="icon"><use href="#i-camera"/></svg></div>
+          <h3>Haii, salam kenal!</h3>
+          <p>
+            Halo! Aku <strong>Fajar</strong>, seorang pelajar <mark class="hl-yellow">ESEMPE(SMP)</mark> yang
+            memiliki hobi fotografi. Aku senang mengabadikan berbagai momen, pemandangan,
+            dan objek menarik melalui kamera.
+          </p>
+          <p>
+            Saat ini aku menggunakan <strong>Canon SX410 IS</strong> dan <strong>Redmi 13</strong>
+            untuk menghasilkan foto-foto yang menjadi bagian dari perjalanan belajarku
+            di dunia <mark class="hl-pink">Photography</mark>.
+          </p>
+          <div class="tag-row">
+            <span class="tag"><svg class="icon"><use href="#i-globe"/></svg> Indonesia</span>
+            <span class="tag"><svg class="icon"><use href="#i-grad"/></svg> Student</span>
+            <span class="tag"><svg class="icon"><use href="#i-camera"/></svg> Beginner Photographer</span>
+            <span class="tag"><svg class="icon"><use href="#i-laptop"/></svg> Vibecoding</span>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="mini-card card-cyan reveal">
+            <span class="mini-icon"><svg class="icon"><use href="#i-grad"/></svg></span>
+            <strong>Siswa SMP</strong>
+            <small>Belajar sambil motret</small>
+          </div>
+          <div class="mini-card card-pink reveal">
+            <span class="mini-icon"><svg class="icon"><use href="#i-aperture"/></svg></span>
+            <strong>Fotografi</strong>
+            <small>Hobi paling seru</small>
+          </div>
+          <div class="mini-card card-orange reveal">
+            <span class="mini-icon"><svg class="icon"><use href="#i-camera"/></svg></span>
+            <strong>Canon SX410 IS</strong>
+            <small>Kamera andalan</small>
+          </div>
+          <div class="mini-card card-purple reveal">
+            <span class="mini-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+            <strong>Redmi 13</strong>
+            <small>Mobile photography</small>
+          </div>
+          <div class="mini-card card-red reveal">
+            <span class="mini-icon"><svg class="icon"><use href="#i-laptop"/></svg></span>
+            <strong>Vibecoding</strong>
+            <small>Ngoding santai dulu</small>
+          </div>
+          <div class="mini-card card-green reveal">
+            <span class="mini-icon"><svg class="icon"><use href="#i-book"/></svg></span>
+            <strong>Always Learning</strong>
+            <small>ga pernah berhenti belajar(boong)</small>
+          </div>
+        </div>
+
+        <div class="quote-card reveal">
+          <span class="quote-mark">"</span>
+          <p>Umur cuma angka. Yang penting <span class="t-pink">passion</span>, <span class="t-green">konsistensi</span>, dan <span class="t-cyan">keberanian</span> untuk terus belajar.</p>
+          <span class="quote-mark">"</span>
+          <div class="quote-author">— M.Fajar</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CAMERA ============ -->
+    <section class="section section-cream camera-section" id="camera">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label label-orange">02 // CAMERA</span>
+          <h2 class="section-title">Perangkat <span class="title-orange">Fotografi</span> <span class="title-icon"><svg class="icon"><use href="#i-camera"/></svg></span></h2>
+          <p class="section-sub">Gear sederhana, hasil maksimal!</p>
+        </div>
+
+        <div class="camera-card reveal">
+          <div class="camera-img-wrap">
+            <img src="https://img2.pixhost.to/images/8568/737616654_uploaded_image.jpg" alt="Canon SX410 IS" loading="lazy" />
+            <span class="sticker sticker-yellow tilt-l camera-sticker"><svg class="icon"><use href="#i-star"/></svg> My Gear</span>
+          </div>
+          <div class="camera-info">
+            <h3>Canon SX410 IS</h3>
+            <p>
+              Wkwk, cuma kamera 1 jutaan. Tpi dari kamera sederhana ini aku belajar
+              <mark class="hl-cyan">komposisi</mark>, <mark class="hl-pink">pencahayaan</mark>,
+              <mark class="hl-yellow">kesabaran</mark>, dan cara melihat dunia dari sudut
+              pandang yang berbeda.
+            </p>
+            <div class="tag-row">
+              <span class="tag">40x Zoom</span>
+              <span class="tag">20 MP</span>
+              <span class="tag">Budget Friendly</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="section section-dark" id="gallery">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label label-pink">03 // GALLERY</span>
+          <h2 class="section-title on-dark">Galeri <span class="title-yellow">Fotografi</span> <span class="title-icon"><svg class="icon"><use href="#i-image"/></svg></span></h2>
+          <p class="section-sub on-dark">Hasil jepretanku — klik untuk lihat fullscreen!</p>
+        </div>
+
+        <div class="gallery-grid">
+          <figure class="gallery-card card-cyan reveal" data-title="Saksi Malam yang Utuh">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609238_uploaded_image.jpg" alt="Saksi Malam yang Utuh" loading="lazy" /></div>
+            <figcaption>Saksi Malam yang Utuh</figcaption>
+          </figure>
+          <figure class="gallery-card card-pink reveal" data-title="Menuju Kesempurnaan">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609586_uploaded_image.jpg" alt="Menuju Kesempurnaan" loading="lazy" /></div>
+            <figcaption>Menuju Kesempurnaan</figcaption>
+          </figure>
+          <figure class="gallery-card card-yellow reveal" data-title="Jejak Waktu">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609359_uploaded_image.jpg" alt="Jejak Waktu" loading="lazy" /></div>
+            <figcaption>Jejak Waktu</figcaption>
+          </figure>
+          <figure class="gallery-card card-purple reveal" data-title="Cahaya dalam Kegelapan">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609464_uploaded_image.jpg" alt="Cahaya dalam Kegelapan" loading="lazy" /></div>
+            <figcaption>Cahaya dalam Kegelapan</figcaption>
+          </figure>
+          <figure class="gallery-card card-orange reveal" data-title="Penjaga Kesunyian">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609489_uploaded_image.jpg" alt="Penjaga Kesunyian" loading="lazy" /></div>
+            <figcaption>Penjaga Kesunyian</figcaption>
+          </figure>
+          <figure class="gallery-card card-green reveal" data-title="Penjelajah Malam">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609547_uploaded_image.jpg" alt="Penjelajah Malam" loading="lazy" /></div>
+            <figcaption>Penjelajah Malam</figcaption>
+          </figure>
+          <figure class="gallery-card card-red reveal" data-title="Cahaya Terakhir Hari Ini">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737609383_uploaded_image.jpg" alt="Cahaya Terakhir Hari Ini" loading="lazy" /></div>
+            <figcaption>Cahaya Terakhir Hari Ini</figcaption>
+          </figure>
+          <figure class="gallery-card card-cyan reveal" data-title="Megah dalam Kesederhanaan">
+            <div class="gallery-img-wrap"><img src="https://img2.pixhost.to/images/8567/737610599_uploaded_image.jpg" alt="Megah dalam Kesederhanaan" loading="lazy" /></div>
+            <figcaption>Megah dalam Kesederhanaan</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-dark projects-section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label label-orange">04 // PROJECTS</span>
+          <h2 class="section-title on-dark">Project-project <span class="title-yellow">Keren</span> <span class="title-icon"><svg class="icon"><use href="#i-rocket"/></svg></span></h2>
+          <p class="section-sub on-dark">Beberapa project fotografi yang lagi aku kerjakan!</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card card-cyan reveal">
+            <div class="project-top">
+              <span class="project-icon"><svg class="icon"><use href="#i-folder"/></svg></span>
+              <h3>Photography Portfolio</h3>
+            </div>
+            <p>Kumpulan foto terbaik hasil jepretan gw dari landscape sampai street photography, semua diabadikan dengan penuh passion.</p>
+            <ul class="feature-list">
+              <li><svg class="icon"><use href="#i-zap"/></svg> Best Shots</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Curated</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Original</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Full Story</li>
+            </ul>
+            <div class="badge-row">
+              <span class="badge-sm">Photography</span>
+              <span class="badge-sm">Portfolio</span>
+            </div>
+            <a href="#gallery" class="btn btn-dark btn-block"><svg class="icon"><use href="#i-globe"/></svg> Lihat Galeri</a>
+          </article>
+
+          <article class="project-card card-pink reveal">
+            <div class="project-top">
+              <span class="project-icon"><svg class="icon"><use href="#i-phone"/></svg></span>
+              <h3>Mobile Photography</h3>
+            </div>
+            <p>Eksplorasi fotografi menggunakan Redmi 13 — membuktikan bahwa HP juga bisa menghasilkan foto yang keren dan estetik.</p>
+            <ul class="feature-list">
+              <li><svg class="icon"><use href="#i-zap"/></svg> Redmi 13</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Praktis</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Anywhere</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Estetik</li>
+            </ul>
+            <div class="badge-row">
+              <span class="badge-sm">Mobile</span>
+              <span class="badge-sm">Snapshot</span>
+            </div>
+            <a href="#gallery" class="btn btn-dark btn-block"><svg class="icon"><use href="#i-globe"/></svg> Lihat Project</a>
+          </article>
+
+          <article class="project-card card-orange reveal">
+            <div class="project-top">
+              <span class="project-icon"><svg class="icon"><use href="#i-leaf"/></svg></span>
+              <h3>Nature Capture</h3>
+            </div>
+            <p>Mengabadikan keindahan alam sekitar — langit, pepohonan, dan momen golden hour yang selalu bikin takjub.</p>
+            <ul class="feature-list">
+              <li><svg class="icon"><use href="#i-zap"/></svg> Landscape</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Golden Hour</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Sky Lover</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Outdoor</li>
+            </ul>
+            <div class="badge-row">
+              <span class="badge-sm">Nature</span>
+              <span class="badge-sm">Landscape</span>
+            </div>
+            <a href="#gallery" class="btn btn-dark btn-block"><svg class="icon"><use href="#i-globe"/></svg> Lihat Project</a>
+          </article>
+
+          <article class="project-card card-purple reveal">
+            <div class="project-top">
+              <span class="project-icon"><svg class="icon"><use href="#i-bulb"/></svg></span>
+              <h3>Creative Exposure</h3>
+            </div>
+            <p>Eksperimen dengan cahaya, long exposure, dan komposisi unik untuk menciptakan foto yang beda dari yang lain.</p>
+            <ul class="feature-list">
+              <li><svg class="icon"><use href="#i-zap"/></svg> Long Exposure</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Low Light</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Eksperimen</li>
+              <li><svg class="icon"><use href="#i-zap"/></svg> Kreatif</li>
+            </ul>
+            <div class="badge-row">
+              <span class="badge-sm">Creative</span>
+              <span class="badge-sm">Exposure</span>
+            </div>
+            <a href="#gallery" class="btn btn-dark btn-block"><svg class="icon"><use href="#i-globe"/></svg> Lihat Project</a>
+          </article>
+        </div>
+
+        <div class="coming-soon reveal">
+          <strong><svg class="icon"><use href="#i-tool"/></svg> More projects coming soon!</strong>
+          <span>Aku terus belajar dan hunting foto baru</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-cream" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label label-purple">05 // SKILLS</span>
+          <h2 class="section-title">Photography <span class="title-purple">Skills</span> <span class="title-icon"><svg class="icon"><use href="#i-tool"/></svg></span></h2>
+          <p class="section-sub">Skill yang aku punya (dan yang lagi dipelajari!)</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card card-pink reveal">
+            <div class="skill-head"><span class="skill-icon"><svg class="icon"><use href="#i-camera"/></svg></span><h3>Photography</h3></div>
+            <div class="skill-row">
+              <div class="skill-info"><span>Photography</span><span class="skill-pct">70%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="70"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-info"><span>Vibecoding</span><span class="skill-pct">40%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="40"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card card-cyan reveal">
+            <div class="skill-head"><span class="skill-icon"><svg class="icon"><use href="#i-code"/></svg></span><h3>Frontend</h3></div>
+            <div class="skill-row">
+              <div class="skill-info"><span>HTML</span><span class="skill-pct">70%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="70"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-info"><span>CSS</span><span class="skill-pct">20%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="20"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card card-orange reveal">
+            <div class="skill-head"><span class="skill-icon"><svg class="icon"><use href="#i-terminal"/></svg></span><h3>Scripting</h3></div>
+            <div class="skill-row">
+              <div class="skill-info"><span>JavaScript</span><span class="skill-pct">40%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="40"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-info"><span>Python</span><span class="skill-pct">30%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="30"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-card card-purple reveal">
+            <div class="skill-head"><span class="skill-icon"><svg class="icon"><use href="#i-book"/></svg></span><h3>Learning Next</h3></div>
+            <div class="skill-row">
+              <div class="skill-info"><span>TypeScript</span><span class="skill-pct">20%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="20"></div></div>
+            </div>
+            <div class="skill-row">
+              <div class="skill-info"><span>Editing</span><span class="skill-pct">35%</span></div>
+              <div class="bar"><div class="bar-fill" data-progress="35"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="ticker reveal">
+          <div class="ticker-track">
+            <span>Photography &nbsp;•&nbsp; Vibecoding &nbsp;•&nbsp; HTML &nbsp;•&nbsp; CSS &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; Python &nbsp;•&nbsp; TypeScript &nbsp;•&nbsp; </span>
+            <span>Photography &nbsp;•&nbsp; Vibecoding &nbsp;•&nbsp; HTML &nbsp;•&nbsp; CSS &nbsp;•&nbsp; JavaScript &nbsp;•&nbsp; Python &nbsp;•&nbsp; TypeScript &nbsp;•&nbsp; </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-dark" id="contact">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-label label-pink">06 // CONTACT</span>
+          <h2 class="section-title on-dark">Let's <span class="title-yellow">Connect</span> <span class="title-icon"><svg class="icon"><use href="#i-message"/></svg></span></h2>
+          <p class="section-sub on-dark">Mau kolaborasi, ngobrol, atau just say hi? gas cui!</p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <h3><svg class="icon"><use href="#i-message"/></svg> Kirim Pesan</h3>
+          <div class="form-group">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" placeholder="Nama kamu" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="email@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tulis pesan kamu di sini..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-pink btn-block"><svg class="icon"><use href="#i-send"/></svg> Kirim Pesan</button>
+        </form>
+
+        <div class="info-grid">
+          <a href="mailto:fajaarr1001@gmail.com" class="info-card card-yellow reveal">
+            <small><svg class="icon"><use href="#i-mail"/></svg> Email</small>
+            <strong>fajaarr1001@gmail.com</strong>
+          </a>
+          <a href="https://wa.me/6285708557587" target="_blank" rel="noopener" class="info-card card-green reveal">
+            <small><svg class="icon"><use href="#i-message"/></svg> WhatsApp</small>
+            <strong>+62 857-0855-7587</strong>
+          </a>
+          <div class="info-card card-cyan reveal">
+            <small><svg class="icon"><use href="#i-pin"/></svg> Lokasi</small>
+            <strong>Jawa Timur, Indonesia</strong>
+          </div>
+          <div class="info-card card-pink reveal">
+            <small><svg class="icon"><use href="#i-clock"/></svg> Response</small>
+            <strong>&lt; 24 Jam · Open For Collab</strong>
+          </div>
+        </div>
+
+        <div class="social-card reveal">
+          <h3><svg class="icon"><use href="#i-link"/></svg> Social Media</h3>
+          <div class="social-row">
+            <a href="https://www.instagram.com/snapshot.by.jare" target="_blank" rel="noopener" class="btn btn-insta"><svg class="icon"><use href="#i-instagram"/></svg> @snapshot.by.jare</a>
+            <a href="https://wa.me/6285708557587" target="_blank" rel="noopener" class="btn btn-wa"><svg class="icon"><use href="#i-message"/></svg> WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="cta-card reveal">
+          <span class="cta-icon"><svg class="icon"><use href="#i-users"/></svg></span>
+          <strong>Let's build something awesome together!</strong>
+          <span>Aku selalu terbuka untuk project baru dan kolaborasi</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <button class="btn btn-yellow back-top-inline" id="backTopFooter"><svg class="icon"><use href="#i-arrow-up"/></svg> Kembali ke Atas</button>
+      <div class="footer-row">
+        <a href="#home" class="brand">
+          <span class="brand-logo"><svg class="icon"><use href="#i-camera"/></svg></span>
+          <span class="brand-name">Fajar</span>
+        </a>
+        <nav class="footer-menu">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p class="footer-made">Made with <svg class="icon icon-heart"><use href="#i-heart"/></svg> by Fajar</p>
+      </div>
+      <p class="footer-copy">© 2026 Fajar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ============ GALLERY MODAL ============ -->
+  <div class="modal" id="galleryModal" aria-hidden="true" role="dialog">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalClose" aria-label="Tutup" data-close-modal>&times;</button>
+      <button class="modal-nav modal-prev" id="modalPrev" aria-label="Sebelumnya">&lsaquo;</button>
+      <figure class="modal-figure">
+        <img src="" alt="" id="modalImg" />
+        <figcaption id="modalCaption"></figcaption>
+      </figure>
+      <button class="modal-nav modal-next" id="modalNext" aria-label="Berikutnya">&rsaquo;</button>
+    </div>
+  </div>
+
+  <!-- ============ BACK TO TOP ============ -->
+  <button class="back-top" id="backTop" aria-label="Kembali ke atas"><svg class="icon"><use href="#i-arrow-up"/></svg></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
